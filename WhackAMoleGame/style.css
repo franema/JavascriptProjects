@@ -67,3 +67,18 @@ html {
   .hole.up .mole {
     top: 0;
   }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+
+  .start-button {
+    padding: 20px;
+    background-color: #d6c794;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 6px;
+    font-family: 'Amatic SC', cursive;
+  }
