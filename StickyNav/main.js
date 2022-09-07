@@ -4,7 +4,7 @@ const topOfNav = $nav.offsetTop
 
 function fixNav () {
     if(this.scrollY >= topOfNav) {
-        document.body.style.paddingTop = $nav.offsetHeight + "px"
+        document.body.style.paddingTop = `${$nav.offsetHeight}px`
         document.body.classList.add("fixed-nav")
         
     } else {
